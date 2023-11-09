@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wcgl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0020-tenant/cin4s-839-0020-app/devfile-sample-wcgl@sha256:b6da3ae949c25d05e55fc95319a7eef315074a45bd71c7e41aefcc9f66382fb2
         name: my-nodejs
         ports:
         - containerPort: 3001
